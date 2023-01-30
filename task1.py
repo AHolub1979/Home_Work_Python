@@ -3,7 +3,7 @@
 #123 -> 6 (1 + 2 + 3)
 #100 -> 1 (1 + 0 + 0)
 
-number = float(input('Введите трехзначное число: '))
+number = int(input('Введите трехзначное число: '))
 summ = 0
 while number > 0:
     a = number % 10
